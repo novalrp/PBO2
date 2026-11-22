@@ -82,8 +82,13 @@ html { scroll-behavior: smooth; scroll-padding-top: 72px; }
 }
 .proyek:hover { box-shadow: 8px 8px 0 var(--tinta); }
 .proyek.sembunyi { display: none; }
-.proyek:not(.terlihat) { clip-path: inset(0 100% 0 0); }
-.proyek.terlihat { animation: sapu 0.8s var(--ease) calc(var(--n) * 0.12s) backwards; }
+.proyek:not(.terlihat) {
+  clip-path: none;
+}
+
+.proyek.terlihat {
+  animation: sapu 0.8s var(--ease) calc(var(--n) * 0.12s) backwards;
+}
 @keyframes sapu { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
 
 .proyek__gambar { display: grid; place-items: center; height: 170px; border-bottom: 2px solid var(--tinta); background: hsl(var(--hue) 78% 46%); }

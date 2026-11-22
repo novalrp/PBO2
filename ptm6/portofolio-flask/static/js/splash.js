@@ -5,7 +5,7 @@
   const garis = document.getElementById('garis');
   const tujuan = splash.dataset.tujuan;
   const kurangGerak = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const DURASI = kurangGerak ? 500 : 3200; // milidetik
+  const DURASI = kurangGerak ? 500 : 5000; // milidetik
 
   function selesai() {
     document.body.classList.add('keluar'); // memicu animasi tirai pada CSS

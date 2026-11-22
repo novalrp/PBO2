@@ -7,7 +7,7 @@ karena template hanya membaca data dari sini.
 PROFIL = {
     'nama': 'Noval Rizky Pratama',
     'inisial': 'NRP',
-    'peran': ['Web Developer', 'Python Enthusiast', 'UI Tinkerer'],  # teks mesin ketik
+    'peran': ['Web Developer', 'Python Enthusiast', 'UI Tinkerer', 'Flask Developer'],
     'tagline': 'Membangun aplikasi web yang rapi, cepat, dan nyaman dipakai.',
     'tentang': [
         'Saya mahasiswa Teknik Informatika yang senang mengubah ide menjadi aplikasi web yang benar-benar dipakai. Fokus saya ada di Python, Flask, dan antarmuka yang bersih.',
@@ -47,6 +47,8 @@ PROFIL = {
          'tag': 'Data', 'ikon': '#', 'hue': 38, 'tautan': '#'},
         {'judul': 'Blog Komunitas', 'deskripsi': 'Blog sederhana dengan penulis, kategori, dan komentar.',
          'tag': 'Web', 'ikon': 'Aa', 'hue': 200, 'tautan': '#'},
+          {'judul': 'kampus simulator', 'deskripsi': 'game yang seru, kategori, dan komentar.',
+                  'tag': 'game', 'ikon': 'Aa', 'hue': 250, 'tautan': '#'},
     ],
     'pengalaman': [
         {'periode': '2025 sampai sekarang', 'posisi': 'Asisten Praktikum Pemrograman Web',

@@ -41,7 +41,7 @@
       }
       pengamat.unobserve(entri.target);
     });
-  }, { threshold: 0.2 });
+  }, { threshold: 0.6 });
   document.querySelectorAll('.muncul, .stat').forEach((el) => pengamat.observe(el));
 
   // 4. Filter proyek berdasarkan kategori

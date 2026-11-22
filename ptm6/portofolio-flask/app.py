@@ -103,7 +103,7 @@ def login():
 
 
 @app.route('/portofolio')
-@login_required
+# @login_required
 def portofolio():
     return render_template('portofolio.html')
 

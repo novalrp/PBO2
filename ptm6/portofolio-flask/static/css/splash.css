@@ -1,5 +1,5 @@
 /* splash.css: layar pembuka dengan teks kinetik, penghitung, dan tirai transisi */
-.halaman-splash { background: var(--biru); color: #fff; overflow: hidden; }
+.halaman-splash { background: red; color: #fff; overflow: hidden; }
 
 .splash {
   --pad: clamp(20px, 4vw, 48px);
